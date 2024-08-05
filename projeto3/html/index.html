@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>hDC host</title>
+    <link rel="stylesheet" href="../css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Div para abraçar todo mundo -->
+    <div class="conteiner">
+      <!-- Barra de navegação -->
+      <div class="navbar-conteiner">
+        <nav>
+          <a href="#">
+            <img src="../img/hdchostlogo.png" alt="foto logo" class="logo" />
+          </a>
+          <ul class="navbar-items">
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">Preços</a>
+            </li>
+            <li>
+              <a href="#">Contatos</a>
+            </li>
+            <li>
+              <a href="#" class="default-btn">Entrar</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- Main /Contéudo principal do site -->
+      <main>
+        <div class="main-banner">
+          <h1>hDC host</h1>
+          <p>O melhor serviço para projetos de todos os tamanhos</p>
+        </div>
+      
+
+      <!-- Seçao de serviços -->
+      <section class="service-conteiner">
+        <ul>
+          <li>
+            <i class="fas fa-shield-alt"></i>
+            <h3>Segurança</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
+              fuga nemo odio iste accusantium eaque ad voluptas dignissimos
+              obcaecati molestiae consequuntur, quae culpa! Quam corrupti quasi
+              minima ducimus animi dicta?
+            </p>
+          </li>
+          <li>
+            <i class="fas fa-rocket"></i>
+            <h3>Performance</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas
+              maiores iure sequi, rerum quaerat dolores ut quas deleniti
+              repudiandae fuga odio atque voluptatibus impedit, dignissimos,
+              quibusdam quod tempora ratione unde?
+            </p>
+          </li>
+          <li class="big">
+            <i class="fas fa-comments"></i>
+            <h3>Suporte 24/7</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Voluptates inventore itaque eum non autem reiciendis eos earum,
+              adipisci porro in error commodi fugit perferendis hic iste sunt
+              maxime culpa vitae!
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Seção de preços -->
+      <section class="pricing-conteiner">
+        <h2>Planos e preços</h2>
+        <p>Selecione um plano que atenda sua necessidades</p>
+        <div class="plans-conteiner">
+          <div class="plan">
+            <ul>
+              <li class="price">R$15/mês</li>
+              <li class="plan-name">Básico</li>
+              <li>2GB de espaço</li>
+              <li>1 subdomínio</li>
+              <li>25 contas de email</li>
+              <li>C-painel</li>
+              <li>Suporte 24/7</li>
+              <li class="plan-btn">Saber mais</li>
+            </ul>
+          </div>
+          <div class="plan">
+            <ul>
+              <li class="price">R$30/mês</li>
+              <li class="plan-name">Dedicado</li>
+              <li>5GB de espaço</li>
+              <li>10 subdomínio</li>
+              <li>50 contas de email</li>
+              <li>C-painel</li>
+              <li>Suporte 24/7</li>
+              <li class="plan-btn">Saber mais</li>
+            </ul>
+          </div>
+          <div class="plan">
+            <ul>
+              <li class="price">R$50/mês</li>
+              <li class="plan-name recommended">Dedicado plus</li>
+              <li>10GB de espaço</li>
+              <li>10 subdomínio</li>
+              <li>100 contas de email</li>
+              <li>C-painel</li>
+              <li>Suporte 24/7</li>
+              <li class="plan-btn recommended">Saber mais</li>
+            </ul>
+          </div>
+          <div class="plan">
+            <ul>
+              <li class="price">R$100/mês</li>
+              <li class="plan-name">Cloud</li>
+              <li>20GB de espaço</li>
+              <li>20 subdomínio</li>
+              <li>200 contas de email</li>
+              <li>C-painel</li>
+              <li>Suporte 24/7</li>
+              <li class="plan-btn">Saber mais</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Pesquisa de domínio -->
+      <section class="search-domain-conteiner">
+        <h2>Qual domínio você quer para o seu site</h2>
+        <p>Verifique se o domínio está disponível</p>
+        <form>
+          <input
+            type="text"
+            name="domain"
+            id="domain"
+            placeholder="Digite o seu domínio aqui"
+          />
+          <input type="submit" value="Enviar" />
+        </form>
+      </section>
+
+      <!-- Seção de contato -->
+      <section class="contact-conteiner">
+        <h2>Mande sua mensagem</h2>
+        <p>
+          Mande sua mensagem, em até 4 horas um especialista entrará em contato
+        </p>
+        <form>
+          <input type="text" name="name" id="name" placeholder="Seu nome" />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Digite seu email"
+          />
+          <textarea name="message" id="message" placeholder="Descreva suas dúvidas aqui"></textarea>
+          <input type="submit" value="Enviar">
+        </form>
+      </section>
+    </main>
+    <!-- Rodapé -->
+    <footer>
+        <p>hDC host @2024</p>
+    </footer>
+    </div>
+  </body>
+</html>
